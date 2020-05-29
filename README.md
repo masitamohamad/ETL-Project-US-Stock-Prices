@@ -11,6 +11,7 @@ Identify a dataset and perform ETL on the data
 * [Jacob Clifton](https://github.com/cliftjc1)
 * [Masita Mohamad](https://github.com/masitamohamad)
 
+## Project Methodology 
 ### Step 1: **Extract**
 
 1. Identify data sources
