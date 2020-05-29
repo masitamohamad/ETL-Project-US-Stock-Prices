@@ -11,7 +11,7 @@ Identify a dataset and perform ETL on the data
 * [Jacob Clifton](https://github.com/cliftjc1)
 * [Masita Mohamad](https://github.com/masitamohamad)
 
-## Step 1: **Extract**
+### Step 1: **Extract**
 
 1. Identify data sources
 2. Read the data 
@@ -24,7 +24,7 @@ Input files:
 2. earnings_latest.csv
 3. stock_prices_latest.csv
 
-## Step 2: **Transform**
+### Step 2: **Transform**
 
 Cleansing and aggregation to prepare data for analysis
 * Grouped by date and symbol
@@ -32,7 +32,7 @@ Cleansing and aggregation to prepare data for analysis
 * Dropped null values
 * Aggregate Statistics: Calculated minimum low, maximum high, and average differential of stock prices
 
-## Step 3: **Load**
+### Step 3: **Load**
 
 Write the data into a database for storage
 SQLAlchemy
