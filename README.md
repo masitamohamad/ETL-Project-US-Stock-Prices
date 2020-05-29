@@ -13,14 +13,13 @@ Identify a dataset and perform ETL on the data
 
 ## Step 1: **Extract**
 
-Identify data sources
-Identify rows, columns, and fields to be extracted from those sources
-Kaggle link: https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data
+Identify data sources and rows, columns, and fields to be extracted from those sources
+* Kaggle link: https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data
 
-Data
-dividends_latest.csv
-earnings_latest.csv
-stock_prices_latest.csv
+Raw Data
+1. dividends_latest.csv
+2. earnings_latest.csv
+3. stock_prices_latest.csv
 
 ## Step 2: **Transform**
 Cleansing and aggregation to prepare data for analysis
