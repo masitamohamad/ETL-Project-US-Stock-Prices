@@ -32,6 +32,11 @@ Cleansing and aggregation to prepare data for analysis
 * Dropped null values
 * Aggregate Statistics: Calculated minimum low, maximum high, and average differential of stock prices
 
+```python
+# Example:
+g_dividends_df = dividends_df.groupby(['symbol', 'year']).agg({'dividend': ['mean', 'min', 'max','sum']})
+```
+
 #### Dependencies
 * Pandas
   * Dataframe functions
