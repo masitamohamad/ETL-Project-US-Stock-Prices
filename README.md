@@ -32,6 +32,7 @@ Cleansing and aggregation to prepare data for analysis
 
 ```python
 # Example:
+dividends_df['date'] = pd.to_datetime(dividends_df['date'])
 dividends_df['year'] = pd.DatetimeIndex(dividends_df['date']).year
 ```
 
