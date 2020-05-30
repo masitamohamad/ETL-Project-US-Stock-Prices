@@ -25,7 +25,7 @@ Input files:
 ---
 ### Step 2: **Transform**
 
-Cleansing and aggregation to prepare data for analysis
+<em>Cleansing and aggregation to prepare data for analysis</em>
 * Created new column for year only using datetime module
 
 ```python
