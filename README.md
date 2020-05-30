@@ -35,6 +35,8 @@ Cleansing and aggregation to prepare data for analysis
 ```python
 # Example:
 g_dividends_df = dividends_df.groupby(['symbol', 'year']).agg({'dividend': ['mean', 'min', 'max','sum']})
+g_earnings_df = earnings_df.groupby(['symbol', 'year']).agg({'eps': ['sum']})
+g_prices_df = prices_df.groupby(['symbol', 'year']).agg({'low':'min','high':'max','differential':'mean'})
 ```
 
 #### Dependencies
