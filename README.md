@@ -35,13 +35,13 @@ Cleansing and aggregation to prepare data for analysis
 
 ### Step 3: **Load**
 
-Write the data into a database for storage
+Write the data into a SQL database for storage
 SQLAlchemy
 * Created combined symbol/year column to use as primary key for each table
 * Created classes: Dividends, Earnings, Prices
-* Defined columns within each class
+* Defined columns within each class corresponding to previous dataframes
 * Established database connection using create_engine function
-* Pushed the created classes and queried server using a Session object
+* Pushed the tables and queried server using a Session object
 
 Output file:
 1. stonks.sqlite
