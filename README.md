@@ -55,10 +55,42 @@ g_prices_df = prices_df.groupby(['symbol', 'year']).agg({'low':'min','high':'max
 Write the data into a SQL database for storage
 SQLAlchemy
 * Created combined symbol/year column to use as primary key for each table
+
+```python
+# Example:
+_dividends_df['symbol_year'] = g_dividends_df['symbol'].astype(str) + g_dividends_df['year'].astype(str)
+```
+
 * Created classes: Dividends, Earnings, Prices
 * Defined columns within each class corresponding to previous dataframes
+
+```python
+# Example:
+class Dividends(Base):
+    __tablename__ = 'dividends'
+    symbol_year = Column(String(20),primary_key=True)
+    symbol = Column(String(10))
+    year = Column(String(4))
+    dividend_mean = Column(Integer)
+    dividend_min = Column(Integer)
+    dividend_max = Column(Integer)
+    dividend_sum = Column(Integer)
+```
+
 * Established database connection using create_engine function
+```python
+# Example:
+engine = create_engine("sqlite:///stonks.sqlite")
+conn = engine.connect()
+```
+
 * Pushed the tables and queried server using a Session object
+```python
+# Example:
+from sqlalchemy.orm import Session
+session = Session(bind=engine)
+g_dividends_df.to_sql("dividends",engine,if_exists='replace')
+```
 
 #### Dependencies
 * SQLAlchemy
