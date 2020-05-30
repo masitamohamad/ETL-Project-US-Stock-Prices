@@ -14,8 +14,7 @@ Identify a dataset and perform ETL on the data
 ## Project Methodology 
 ### Step 1: **Extract**
 
-* Identify data sources
-* [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
+* Identify data sources: [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
 * Read the data 
 * Identify rows, columns, and fields to be extracted from the sources
 
