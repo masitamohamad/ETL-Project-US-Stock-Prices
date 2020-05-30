@@ -35,6 +35,7 @@ Cleansing and aggregation to prepare data for analysis
 
 #### Dependencies
 * Pandas
+  * Dataframe functions
 * Datetime
 
 ### Step 3: **Load**
