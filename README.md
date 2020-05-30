@@ -51,7 +51,7 @@ g_prices_df = prices_df.groupby(['symbol', 'year']).agg({'low':'min','high':'max
 ---
 ### Step 3: **Load**
 
-Write the data into a SQL database for storage
+</em>Write the data into a SQL database for storage</em>
 SQLAlchemy
 * Created combined symbol/year column to use as primary key for each table
 
