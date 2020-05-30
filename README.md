@@ -51,7 +51,6 @@ SQLAlchemy
 
 #### Dependencies
 * SQLAlchemy
-  * create_engine
 
 Output file:
 1. stonks.sqlite
