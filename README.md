@@ -24,7 +24,7 @@ Input files:
 1. **dividends_latest.csv**: Dividend data for each stock with dividend date
 2. **earnings_latest.csv**: Earnings data for each stock with date and estimated & reported EPS
 3. **stock_prices_latest.csv**: Daily stock price data 
-***
+---
 ### Step 2: **Transform**
 
 Cleansing and aggregation to prepare data for analysis
@@ -38,7 +38,7 @@ Cleansing and aggregation to prepare data for analysis
   * Dataframe functions
 * Datetime
   * Date formatting
-
+---
 ### Step 3: **Load**
 
 Write the data into a SQL database for storage
