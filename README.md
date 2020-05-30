@@ -29,13 +29,17 @@ Input files:
 Cleansing and aggregation to prepare data for analysis
 * Grouped by date and symbol
 * Created new column for year only
+
+```python
+# Example:
+dividends_df['year'] = pd.DatetimeIndex(dividends_df['date']).year
+```
+
 * Dropped null values
 * Aggregate Statistics: Calculated minimum low, maximum high, and average differential of stock prices
 
 ```python
 # Example:
-g_dividends_df = dividends_df.groupby(['symbol', 'year']).agg({'dividend': ['mean', 'min', 'max','sum']})
-g_earnings_df = earnings_df.groupby(['symbol', 'year']).agg({'eps': ['sum']})
 g_prices_df = prices_df.groupby(['symbol', 'year']).agg({'low':'min','high':'max','differential':'mean'})
 ```
 
