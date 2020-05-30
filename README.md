@@ -27,7 +27,6 @@ Input files:
 ### Step 2: **Transform**
 
 Cleansing and aggregation to prepare data for analysis
-* Grouped by date and symbol
 * Created new column for year only
 
 ```python
@@ -37,6 +36,7 @@ dividends_df['year'] = pd.DatetimeIndex(dividends_df['date']).year
 ```
 
 * Dropped null values
+* Grouped by date and symbol
 * Aggregate Statistics: Calculated minimum low, maximum high, and average differential of stock prices
 
 ```python
