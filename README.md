@@ -49,5 +49,9 @@ SQLAlchemy
 * Established database connection using create_engine function
 * Pushed the tables and queried server using a Session object
 
+#### Dependencies
+* SQLAlchemy
+  * create_engine
+
 Output file:
 1. stonks.sqlite
