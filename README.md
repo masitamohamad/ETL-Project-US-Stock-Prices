@@ -37,6 +37,7 @@ Cleansing and aggregation to prepare data for analysis
 * Pandas
   * Dataframe functions
 * Datetime
+ * Date formatting
 
 ### Step 3: **Load**
 
