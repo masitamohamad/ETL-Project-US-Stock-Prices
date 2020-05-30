@@ -45,3 +45,8 @@ SQLAlchemy
 
 Output file:
 1. stonks.sqlite
+
+#### Modules Required
+
+pandas==0.25.1
+SQLAlchemy==1.3.9
