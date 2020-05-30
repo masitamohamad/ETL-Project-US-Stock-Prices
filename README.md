@@ -13,9 +13,10 @@ Identify a dataset and perform ETL on the data
 
 ## Project Methodology 
 ### Step 1: **Extract**
+<em>Extract data from data sources</em>
 
 * Identify data sources: [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
-* Read the data 
+* Read the data using Pandas
 * Identify rows, columns, and fields to be extracted from the sources
 
 Input files:
@@ -51,7 +52,7 @@ g_prices_df = prices_df.groupby(['symbol', 'year']).agg({'low':'min','high':'max
 ---
 ### Step 3: **Load**
 
-</em>Write the data into a SQL database for storage using SQLAlchemy</em>
+<em>Write the data into a SQL database for storage using SQLAlchemy</em>
 * Created combined symbol/year column to use as primary key for each table
 
 ```python
