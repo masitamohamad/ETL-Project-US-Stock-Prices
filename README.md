@@ -21,9 +21,9 @@ Identify a dataset and perform ETL on the data
 * [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
 
 Input files:
-1. dividends_latest.csv: Dividend data for each stock with dividend date
-2. earnings_latest.csv: Earnings data for each stock with date and estimated & reported EPS
-3. stock_prices_latest.csv: Daily stock price data 
+1. **dividends_latest.csv**: Dividend data for each stock with dividend date
+2. **earnings_latest.csv**: Earnings data for each stock with date and estimated & reported EPS
+3. **stock_prices_latest.csv**: Daily stock price data 
 
 ### Step 2: **Transform**
 
