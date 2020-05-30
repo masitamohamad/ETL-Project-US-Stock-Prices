@@ -48,5 +48,5 @@ Output file:
 
 #### Modules Required
 
-pandas==0.25.1
+pandas==0.25.1 <br />
 SQLAlchemy==1.3.9
