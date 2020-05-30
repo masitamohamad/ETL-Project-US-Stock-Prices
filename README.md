@@ -33,6 +33,10 @@ Cleansing and aggregation to prepare data for analysis
 * Dropped null values
 * Aggregate Statistics: Calculated minimum low, maximum high, and average differential of stock prices
 
+#### Dependencies
+* Pandas
+* Datetime
+
 ### Step 3: **Load**
 
 Write the data into a SQL database for storage
@@ -45,8 +49,3 @@ SQLAlchemy
 
 Output file:
 1. stonks.sqlite
-
-#### Modules Required
-
-pandas==0.25.1 <br />
-SQLAlchemy==1.3.9
