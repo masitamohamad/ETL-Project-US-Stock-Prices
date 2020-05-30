@@ -37,7 +37,7 @@ Cleansing and aggregation to prepare data for analysis
 
 Write the data into a database for storage
 SQLAlchemy
-Created combined symbol/year column to use as primary key
+* Created combined symbol/year column to use as primary key
 
 Output file:
 1. x.sqlite
