@@ -51,5 +51,5 @@ SQLAlchemy
 #### Dependencies
 * SQLAlchemy
 
-Output file:
+#### Output file:
 1. stonks.sqlite
