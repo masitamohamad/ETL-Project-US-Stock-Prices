@@ -15,9 +15,9 @@ Identify a dataset and perform ETL on the data
 ### Step 1: **Extract**
 <em>Extract data from data sources</em>
 
-* Identify data sources: [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
+* Identified data sources: [Kaggle](https://www.kaggle.com/tsaustin/us-historical-stock-prices-with-earnings-data/data)
 * Read the data using Pandas
-* Identify rows, columns, and fields to be extracted from the sources
+* Identified rows, columns, and fields to be extracted from the sources
 
 Input files:
 1. **dividends_latest.csv**: Dividend data for each stock with dividend date
